@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		381849602ADB2C4D00A109EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818495F2ADB2C4D00A109EE /* AppDelegate.swift */; };
-		381849622ADB2C4D00A109EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381849612ADB2C4D00A109EE /* SceneDelegate.swift */; };
 		381849642ADB2C4D00A109EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381849632ADB2C4D00A109EE /* ViewController.swift */; };
 		381849672ADB2C4D00A109EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381849652ADB2C4D00A109EE /* Main.storyboard */; };
 		381849692ADB2C4E00A109EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381849682ADB2C4E00A109EE /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		3818495C2ADB2C4D00A109EE /* MVVMPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3818495F2ADB2C4D00A109EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		381849612ADB2C4D00A109EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		381849632ADB2C4D00A109EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		381849662ADB2C4D00A109EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		381849682ADB2C4E00A109EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				3818495F2ADB2C4D00A109EE /* AppDelegate.swift */,
-				381849612ADB2C4D00A109EE /* SceneDelegate.swift */,
 				381849632ADB2C4D00A109EE /* ViewController.swift */,
 				381849652ADB2C4D00A109EE /* Main.storyboard */,
 				381849682ADB2C4E00A109EE /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				381849642ADB2C4D00A109EE /* ViewController.swift in Sources */,
 				381849602ADB2C4D00A109EE /* AppDelegate.swift in Sources */,
-				381849622ADB2C4D00A109EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +298,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramimustafa.MVVMPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +329,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramimustafa.MVVMPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
