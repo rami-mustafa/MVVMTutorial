@@ -54,6 +54,14 @@
 		3818495E2ADB2C4D00A109EE /* MVVMPattern */ = {
 			isa = PBXGroup;
 			children = (
+				386E65562ADD3DD9009618D2 /* Networking */,
+				386E65552ADD3DC2009618D2 /* Extensions */,
+				386E65542ADD3D8E009618D2 /* Resources */,
+				386E65532ADD3D67009618D2 /* Classes */,
+				386E65522ADD3D59009618D2 /* Model */,
+				386E65512ADD3D3A009618D2 /* Controllers */,
+				386E65502ADD3D21009618D2 /* ViewModel */,
+				386E654F2ADD3D0D009618D2 /* View */,
 				38A20C852ADC5C5E00125B69 /* MainViewConrtoller */,
 				3818495F2ADB2C4D00A109EE /* AppDelegate.swift */,
 				381849682ADB2C4E00A109EE /* Assets.xcassets */,
@@ -61,6 +69,62 @@
 				3818496D2ADB2C4E00A109EE /* Info.plist */,
 			);
 			path = MVVMPattern;
+			sourceTree = "<group>";
+		};
+		386E654F2ADD3D0D009618D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		386E65502ADD3D21009618D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		386E65512ADD3D3A009618D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		386E65522ADD3D59009618D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		386E65532ADD3D67009618D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		386E65542ADD3D8E009618D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		386E65552ADD3DC2009618D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		386E65562ADD3DD9009618D2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		38A20C852ADC5C5E00125B69 /* MainViewConrtoller */ = {
