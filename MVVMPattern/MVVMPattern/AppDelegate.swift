@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  MVVMPattern
-//
-//  Created by Ghaiath Alhereh on 14.10.23.
-//
 
 import UIKit
 
