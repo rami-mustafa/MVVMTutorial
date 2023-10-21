@@ -10,7 +10,8 @@ class MainViewController: UIViewController {
     
     
     
-    
+    // View Model reference
+    var viewModel: MainViewModel = MainViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
 
