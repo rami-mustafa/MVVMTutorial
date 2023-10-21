@@ -13,11 +13,14 @@ extension MainViewController: UITableViewDelegate , UITableViewDataSource {
         self.tableView.dataSource = self
         
         self.tableView.backgroundColor = .clear
+        registerCells()
     }
     
     
     
-    
+    func registerCells() {
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+    }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         viewModel.numberOfSections()
