@@ -13,7 +13,7 @@ extension MainViewController: UITableViewDelegate , UITableViewDataSource {
         self.tableView.dataSource = self
         
         self.tableView.backgroundColor = .clear
-        registerCells()
+        self.registerCells()
     }
     
     
